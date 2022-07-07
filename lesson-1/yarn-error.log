@@ -1,0 +1,50 @@
+Arguments: 
+  /Users/chandra/.nvm/versions/node/v16.10.0/bin/node /Users/chandra/.yarn/bin/yarn.js add @ppenzeppelin/contracts
+
+PATH: 
+  /Users/chandra/.yarn/bin:/Users/chandra/.config/yarn/global/node_modules/.bin:/Users/chandra/.nvm/versions/node/v16.10.0/bin:/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/chandra/.cargo/bin:/Users/chandra/development/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.10.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ppenzeppelin%2fcontracts: Not found
+      at Request.params.callback [as _callback] (/Users/chandra/.yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/Users/chandra/.yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/Users/chandra/.yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/Users/chandra/.yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "lesson-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
